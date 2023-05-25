@@ -17,41 +17,15 @@ Tareas:
   
 4. Utilizar los TADs implementados en las tareas anteriores para implementar un programa de prueba que nos permita realizar una venta de tickets a un estudiante, de acuerdo a lo que se describe a continuación. El programa deberá ofrecer un menú de opciones donde existan las siguientes posibilidades:
 
+  
 
-  • ico (introducir concierto):
-    o Solicitar el código del concierto y los datos del evento y crear un nuevo concierto en la colección de conciertos.
-    o si es posible introducir los datos del concierto, se mostrará en pantalla “INSERCION REALIZADA: ”; si el concierto ya existe se actualizarán los datos de ese evento y se mostrará “ACTUALIZACION REALIZADA: ”; si no es posible introducir o actualizar los datos del concierto, se mostrará “INSERCION DESCARTADA”
-  • mco (mostrar un concierto):
-oSolicitar el código del concierto y mostrar su contenido completo
-oSe mostrará el código del concierto y toda la información del evento tal como se indica en los apartados
-anteriores
-2•
-•
-•
-•
-bco (borrar concierto):
-oPedir el código del concierto y eliminarlo
-oSi en la “venta de tickets” se encuentra un concierto con el código dado, se mostrará por pantalla
-“CONCIERTO BORRADO:”, seguida de la clave utilizada, seguida de un salto de línea. Si no se
-encuentra un concierto con el código dado, se mostrará “BORRADO DESCARTADO: ”, seguido del
-código utilizado para la instrucción.
-lco (listas todos los conciertos):
-oMostrará un listado completo de todos los conciertos
-oSe mostrará en pantalla la cadena devuelta por la operación listar descrita en la especificación del TAD
-conciertos
-icli (inscribir cliente):
-oPedir el nombre y titulación del estudiante
-oSi es posible añadir el estudiante en el proceso de venta, se mostrará en pantalla “cliente INSCRITO”
-mcli (mostar cliente):
-o
-•
-Mostrará un listado con todos los datos del estudiante y sus tickets adquiridos.
-com (comprar ticket):
-oMostrar listado de todos los conciertos, solicitar al cliente un código de concierto y actualizar los datos
-del cliente y del proceso de venta
-oSe mostrará: “TICKET COMPRADO OK”
-oSi no es posible que el cliente actual compre un ticket debido a que y no hay clientes inscritos, se mostrará,
-“NO HAY CLIENTES”; si no hay conciertos se mostrará, “NO HAY CONCIERTOS”; si el código del
-concierto no existe, se mostrará “EL CODIGO NO PERTENECE A NINGUN CONCIERTO”.
+  - introducir concierto
+  - mostrar un concierto
+  - borrar un concierto
+  - listas todos los conciertos
+  - Inscribir cliente
+  - mostar cliente
+  - comprar ticket
+  
 
  
